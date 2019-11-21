@@ -62,6 +62,8 @@
         "heart"               = /obj/item/organ/heart/dragon,
         "brain"               = /obj/item/organ/brain/dragon,
         "eyes"                = /obj/item/organ/eyes/dragon,
+        "kidney"              = /obj/item/organ/kidney/dragon
+        "liver"               = /obj/item/organ/liver/dragon
     )
  
     default_h_style = "Bald"
