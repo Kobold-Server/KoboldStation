@@ -66,6 +66,3 @@
  
     default_h_style = "Bald"
  
-/datum/species/kobold/dragon/handle_post_spawn(var/mob/living/carbon/human/H)
-    H.mutations.Add(HULK)
-    return ..()
