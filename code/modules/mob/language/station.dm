@@ -46,7 +46,7 @@
 
 /datum/language/dragon
 	name = LANGUAGE_DRAGON
-	desc = "An elaborate, high-context language spoken universally by dragons and widely by magicians. Regarded as the ideal form of language by most of the former two."
+	desc = "An elaborate, high-context language spoken universally by dragons and widely by magicians, regarded as the ideal form of language by most of the former."
 	speech_verb = "hisses"
 	ask_verb = "hisses"
 	exclaim_verb = "roars"
