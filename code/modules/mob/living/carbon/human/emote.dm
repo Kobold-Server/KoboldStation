@@ -681,9 +681,69 @@
 			delayed_vomit()
 			return
 
+		if ("yap")
+			if(miming)
+				message = "appears to yap!"
+				m_type = 1
+			else
+				if (!muzzled)
+					message = "lets out a yap!"
+					m_type = 2
+				else
+					message = "makes a yappy noise."
+					m_type = 2
+
+		if ("ayap")
+			if(miming)
+				message = "appears to yap angrily!"
+				m_type = 1
+			else
+				if (!muzzled)
+					message = "unleashes a furious yap!"
+					m_type = 2
+				else
+					message = "makes a furious noise."
+					m_type = 2
+
+		if ("eyap")
+			if(miming)
+				message = "appears to yap, excited!"
+				m_type = 1
+			else
+				if (!muzzled)
+					message = "lets loose an excited yap!"
+					m_type = 2
+				else
+					message = "makes an excited noise!"
+					m_type = 2
+
+		if ("syap")
+			if(miming)
+				message = "appears to yap, full of melancholy."
+				m_type = 1
+			else
+				if (!muzzled)
+					message = "cries out with a forlorn yap."
+					m_type = 2
+				else
+					message = "makes a sorrowful noise."
+					m_type = 2
+
+		if ("hyap")
+			if(miming)
+				message = "appears to yap happily, smiling!"
+				m_type = 1
+			else
+				if (!muzzled)
+					message = "yaps happily, a huge smile on their face!"
+					m_type = 2
+				else
+					message = "makes a very happy noise!"
+					m_type = 2
+
 
 		if ("help")
-			to_chat(src, "blink, blink_r, blush, bow-(none)/mob, burp, choke, chuckle, clap, golfclap, collapse, cough, cry, custom, deathgasp, drool, eyebrow, frown, gasp, giggle, groan, grumble, handshake, hug-(none)/mob, glare-(none)/mob, grin, laugh, look-(none)/mob, moan, mumble, nod, pale, point-atom, raise, salute, shake, shiver, shrug, sigh, signal-#1-10, smile, sneeze, sniff, snore, stare-(none)/mob, tremble, twitch, twitch_s, whimper, wink, yawn, swish, sway/wag, fastsway/qwag, stopsway/swag, beep, ping, buzz, slap, snap, chitter, vomit")
+			to_chat(src, "blink, blink_r, blush, bow-(none)/mob, burp, choke, chuckle, clap, golfclap, collapse, cough, cry, custom, deathgasp, drool, eyebrow, frown, gasp, giggle, groan, grumble, handshake, hug-(none)/mob, glare-(none)/mob, grin, laugh, look-(none)/mob, moan, mumble, nod, pale, point-atom, raise, salute, shake, shiver, shrug, sigh, signal-#1-10, smile, sneeze, sniff, snore, stare-(none)/mob, tremble, twitch, twitch_s, whimper, wink, yawn, swish, sway/wag, fastsway/qwag, stopsway/swag, beep, ping, buzz, slap, snap, chitter, vomit, yap, ayap, eyap, syap, hyap")
 
 		else
 			to_chat(src, span("notice", "Unusable emote '[act]'. Say *help for a list."))
