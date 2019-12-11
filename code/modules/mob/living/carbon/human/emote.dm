@@ -651,7 +651,7 @@
 		if("hyap")
             if(!istype(mob?.species, /datum/species/kobold))
                 to_chat(src, "<span class='warning'>You don't have the means to do this!</span>")
-                return
+				return
 			else
 				if (!muzzled)
 					message = "yaps happily, a huge smile on their face!"
