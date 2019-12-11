@@ -604,61 +604,56 @@
 			if(!istype(species, /datum/species/kobold))
 				to_chat(src, "<span class='warning'>You don't have the means to do this!</span>")
 				return
+			if (!muzzled)
+				message = "lets out a yap!"
+				m_type = 2
 			else
-				if (!muzzled)
-					message = "lets out a yap!"
-					m_type = 2
-				else
-					message = "makes a yappy noise."
-					m_type = 2
+				message = "makes a yappy noise."
+				m_type = 2
 
 		if("ayap")
 			if(!istype(species, /datum/species/kobold))
 				to_chat(src, "<span class='warning'>You don't have the means to do this!</span>")
 				return
+			if (!muzzled)
+				message = "unleashes a furious yap!"
+				m_type = 2
 			else
-				if (!muzzled)
-					message = "unleashes a furious yap!"
-					m_type = 2
-				else
-					message = "makes a furious noise."
-					m_type = 2
+				message = "makes a furious noise."
+				m_type = 2
 
 		if("eyap")
 			if(!istype(species, /datum/species/kobold))
 				to_chat(src, "<span class='warning'>You don't have the means to do this!</span>")
 				return
+			if (!muzzled)
+				message = "lets loose an excited yap!"
+				m_type = 2
 			else
-				if (!muzzled)
-					message = "lets loose an excited yap!"
-					m_type = 2
-				else
-					message = "makes an excited noise!"
-					m_type = 2
+				message = "makes an excited noise!"
+				m_type = 2
 
 		if("syap")
 			if(!istype(species, /datum/species/kobold))
 				to_chat(src, "<span class='warning'>You don't have the means to do this!</span>")
-                return
-          	else
-				if (!muzzled)
-					message = "cries out with a forlorn yap."
-					m_type = 2
-				else
-					message = "makes a sorrowful noise."
-					m_type = 2
+				return
+			if (!muzzled)
+				message = "cries out with a forlorn yap."
+				m_type = 2
+			else
+				message = "makes a sorrowful noise."
+				m_type = 2
 
 		if("hyap")
 			if(!istype(species, /datum/species/kobold))
 				to_chat(src, "<span class='warning'>You don't have the means to do this!</span>")
 				return
+			if (!muzzled)
+				message = "yaps happily, a huge smile on their face!"
+				m_type = 2
 			else
-				if (!muzzled)
-					message = "yaps happily, a huge smile on their face!"
-					m_type = 2
-				else
-					message = "makes a very happy noise!"
-					m_type = 2
+				message = "makes a very happy noise!"
+				m_type = 2
 
 		if ("help")
 			to_chat(src, "blink, blink_r, blush, bow-(none)/mob, burp, choke, chuckle, clap, golfclap, collapse, cough, cry, custom, deathgasp, drool, eyebrow, frown, gasp, giggle, groan, grumble, handshake, hug-(none)/mob, glare-(none)/mob, grin, laugh, look-(none)/mob, moan, mumble, nod, pale, point-atom, raise, salute, shake, shiver, shrug, sigh, signal-#1-10, smile, sneeze, sniff, snore, stare-(none)/mob, tremble, twitch, twitch_s, whimper, wink, yawn, swish, sway/wag, fastsway/qwag, stopsway/swag, beep, ping, buzz, slap, snap, chitter, vomit, yap, ayap, eyap, syap, hyap")
