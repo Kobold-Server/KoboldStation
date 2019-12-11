@@ -601,7 +601,7 @@
 			return
 
 		if("yap")
-            if(!istype(mob?.species, /datum/species/kobold))
+			if(!istype(species, /datum/species/kobold))
                 to_chat(src, "<span class='warning'>You don't have the means to do this!</span>")
                 return
           	else
