@@ -396,7 +396,7 @@
 	icon_state = "bride_white"
 	item_state = "nursesuit"
 	worn_state = "bride_white"
-	flags_inv = HIDESHOESc
+	flags_inv = HIDESHOES
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 
 /obj/item/clothing/under/sundress
