@@ -603,7 +603,7 @@
 		if("yap")
 			if(!istype(species, /datum/species/kobold))
 				to_chat(src, "<span class='warning'>You don't have the means to do this!</span>")
-                return
+				return
 			else
 				if (!muzzled)
 					message = "lets out a yap!"
