@@ -615,8 +615,8 @@
 		if("ayap")
 			if(!istype(species, /datum/species/kobold))
 				to_chat(src, "<span class='warning'>You don't have the means to do this!</span>")
-                return
-          	else
+				return
+			else
 				if (!muzzled)
 					message = "unleashes a furious yap!"
 					m_type = 2
@@ -625,10 +625,10 @@
 					m_type = 2
 
 		if("eyap")
-            if(!istype(mob?.species, /datum/species/kobold))
-                to_chat(src, "<span class='warning'>You don't have the means to do this!</span>")
-                return
-          	else
+			if(!istype(species, /datum/species/kobold))
+				to_chat(src, "<span class='warning'>You don't have the means to do this!</span>")
+				return
+			else
 				if (!muzzled)
 					message = "lets loose an excited yap!"
 					m_type = 2
@@ -637,7 +637,7 @@
 					m_type = 2
 
 		if("syap")
-            if(!istype(mob?.species, /datum/species/kobold))
+			if(!istype(species, /datum/species/kobold))
 				to_chat(src, "<span class='warning'>You don't have the means to do this!</span>")
                 return
           	else
