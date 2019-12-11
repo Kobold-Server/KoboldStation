@@ -93,7 +93,7 @@
 
 /obj/item/clothing/under/skirt/offworlder
 	name = "\improper environmental skirt"
-	desc = "A tight, thickly padded suit meant to assist with maintaining body temperature and ensure hydration in hostile environments. Tough, and allows for relatively normal mobility, albeit it tends to chafe during prolonged use. This one has a cute skirt!"
+	desc = "A tight, thickly padded suit meant to assist with maintaining body temperature in hostile environments. Tough, and allows for relatively normal mobility, albeit it tends to chafe during prolonged use. This one has a cute skirt!"
 	icon_state = "crskirt"
 	worn_state = "crskirt"
 	heat_protection = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
